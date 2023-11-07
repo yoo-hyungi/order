@@ -34,9 +34,8 @@ public class PolicyHandler {
         System.out.println(
             "\n\n##### listener UpdateStatus : " + deliveryReturned + "\n\n"
         );
-
         // Sample Logic //
-        Order.updateStatus(event);
+
     }
 
     @StreamListener(
@@ -50,9 +49,8 @@ public class PolicyHandler {
         System.out.println(
             "\n\n##### listener UpdateStatus : " + deliveryCanceled + "\n\n"
         );
-
         // Sample Logic //
-        Order.updateStatus(event);
+
     }
 
     @StreamListener(
@@ -66,9 +64,8 @@ public class PolicyHandler {
         System.out.println(
             "\n\n##### listener UpdateStatus : " + deliveryCompleted + "\n\n"
         );
-
         // Sample Logic //
-        Order.updateStatus(event);
+
     }
 
     @StreamListener(
@@ -82,9 +79,8 @@ public class PolicyHandler {
         System.out.println(
             "\n\n##### listener UpdateStatus : " + deliveryStarted + "\n\n"
         );
-
         // Sample Logic //
-        Order.updateStatus(event);
+
     }
 
     @StreamListener(
