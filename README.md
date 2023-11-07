@@ -34,15 +34,15 @@ mvn spring-boot:run
 ## Test by API
 - order
 ```
- http :8088/orders id="id" userId="userId" productName="productName" productId="productId" qty="qty" status="status" orderDt="orderDt" address="address" ="" ="" ="" ="" ="" ="" ="" 
+ http :8088/orders id="id" userId="userId" productName="productName" productId="productId" qty="qty" status="status" orderDt="orderDt" address="address" 
 ```
 - delivery
 ```
- http :8088/deliveryManagements id="id" userId="userId" orderId="orderId" productName="productName" productId="productId" qty="qty" status="status" deliveryDt="deliveryDt" ="" ="" ="" ="" ="" ="" ="" 
+ http :8088/deliveryManagements id="id" userId="userId" orderId="orderId" productName="productName" productId="productId" qty="qty" status="status" deliveryDt="deliveryDt" 
 ```
 - product
 ```
- http :8088/inventories id="id" productName="productName" productImg="productImg" stock="stock" ="" ="" ="" 
+ http :8088/inventories id="id" productName="productName" productImg="productImg" stock="stock" 
 ```
 
 

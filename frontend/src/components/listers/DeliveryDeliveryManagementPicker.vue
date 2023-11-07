@@ -35,27 +35,6 @@
                             <v-list-item-subtitle>
                                 DeliveryDt :  {{item.deliveryDt }}
                             </v-list-item-subtitle>
-                            <v-list-item-subtitle>
-                                 :  {{item. }}
-                            </v-list-item-subtitle>
-                            <v-list-item-subtitle>
-                                 :  {{item. }}
-                            </v-list-item-subtitle>
-                            <v-list-item-subtitle>
-                                 :  {{item. }}
-                            </v-list-item-subtitle>
-                            <v-list-item-subtitle>
-                                 :  {{item. }}
-                            </v-list-item-subtitle>
-                            <v-list-item-subtitle>
-                                 :  {{item. }}
-                            </v-list-item-subtitle>
-                            <v-list-item-subtitle>
-                                 :  {{item. }}
-                            </v-list-item-subtitle>
-                            <v-list-item-subtitle>
-                                 :  {{item. }}
-                            </v-list-item-subtitle>
                         </v-list-item-content>
 
                         <v-list-item-action>
@@ -107,20 +86,6 @@
                 if(val != undefined) {
                     var arr = this.list[val]._links.self.href.split('/');
                     obj['id'] = arr[4]; 
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
                     
                     
                     
